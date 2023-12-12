@@ -3,6 +3,6 @@ const student = {
 	name : "faizal"
 }
 
-Object.protoype.getKeys = function{
+Object.protoype.getKeys = function() {
 	return Object.keys(this);
 };
